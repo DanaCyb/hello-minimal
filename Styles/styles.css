@@ -1,1 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Karla:400,700|Libre+Baskerville:400i');
+
+/* footer */
+footer {
+    background-image: url(../Images/footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
