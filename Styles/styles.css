@@ -3,6 +3,7 @@
 header {
     background-image: url(../Images/herobanner.jpg);
     background-repeat: no-repeat;
+    background-size: contain;
 }
 
 /* footer */
