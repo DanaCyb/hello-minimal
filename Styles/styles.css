@@ -2,15 +2,24 @@
 
 /* header*/
 header {
+    display: flex;
+    flex-direction: column;
     background-image: url(../Images/herobanner.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     height: 75vh;
     width: 100%;
     margin-top: 70px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 h1 {
-    
+    margin: 30px 50px 270px 50px;
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 64px;
 }
 /*menu*/
 .band {
