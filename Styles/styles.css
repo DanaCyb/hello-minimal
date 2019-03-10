@@ -4,6 +4,13 @@ header {
     background-image: url(../Images/herobanner.jpg);
     background-repeat: no-repeat;
     background-size: contain;
+    height: 75vh;
+    width: 100%;
+    margin-top: 70px;
+}
+.band {
+    height: 40px;
+    width: 40px;
 }
 
 /* footer */
