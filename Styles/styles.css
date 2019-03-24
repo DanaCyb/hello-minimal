@@ -112,27 +112,40 @@ nav ul li a {
     line-height: 20px;
     max-width: 750px;
 }
+.list{
+    display: inline-flex;
+    justify-content: flex-start;
+}
 #offer ul{
     display: flex;
-    flex-direction: column;
     flex-wrap: nowrap;
+    flex-direction: column;
+    width: 210px;  
+    padding: 0;
 }
 #offer ul h3{
     font-family: 'Karla', sans-serif;
     text-transform: uppercase;
 }
-#offer ul li {
+#offer ul li{
     font-size: 16px;
     color: #000000;
     text-decoration: none;
     font-family: 'Karla', sans-serif;
-    margin-left: 20px;
-    margin-right: 20px;
     list-style: none;
     line-height: 35px;
     text-transform: uppercase;
+    margin: 25px 0 15px 0;
 }
-
+.act li, .exp li{
+    border-bottom: 2px solid #f6f6f6;
+}
+.act li:last-child, .exp li:last-child{
+    border-bottom: none;
+}
+.act, .exp{
+    margin: 25px 15px 25px 15px;
+}
 
 
 
