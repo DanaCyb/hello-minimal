@@ -84,6 +84,7 @@ nav ul li a {
     margin-left: 250px;
     justify-content: center;
     flex-wrap: nowrap;
+    padding-bottom: 100px;
 }
 #offer h2 {
     font-family: 'Libre Baskerville', serif;
@@ -108,9 +109,10 @@ nav ul li a {
 }
 #offer p{
     font-family: 'Karla', sans-serif;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 20px;
-    max-width: 750px;
+    max-width: 550px;
+    position: relative;
 }
 .list{
     display: inline-flex;
@@ -135,19 +137,27 @@ nav ul li a {
     list-style: none;
     line-height: 35px;
     text-transform: uppercase;
-    margin: 25px 0 15px 0;
+    margin: 5px 0 15px 0;
 }
 .act li, .exp li{
-    border-bottom: 2px solid #f6f6f6;
+    border-bottom: 2px solid #f8f8f8;
 }
-.act li:last-child, .exp li:last-child{
+.act li:last-child{
     border-bottom: none;
 }
 .act, .exp{
     margin: 25px 15px 25px 15px;
 }
-
-
+#offer p:last-child::before{
+    content: url(../Images/offer-img.jpg);
+    display: flex;
+    align-content: flex-end;
+    z-index: -1;
+    justify-content: flex-end;
+    position: absolute;
+    top: -170px;
+    left: 500px;
+}
 
 
 
