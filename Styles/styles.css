@@ -23,7 +23,7 @@ h1 {
     font-weight: 400;
     font-size: 58px;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 150px;
     letter-spacing: 5px;
     position: relative;
 }
@@ -35,7 +35,7 @@ h1::before {
     left: 0;
     right: 0;
     margin: auto;
-    top: 50px;
+    top: 150px;
     z-index: -1;
     position: absolute;
 }
