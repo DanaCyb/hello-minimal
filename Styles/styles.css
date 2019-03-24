@@ -84,7 +84,7 @@ nav ul li a {
     margin-left: 200px;
     justify-content: center;
     flex-wrap: nowrap;
-    padding-bottom: 100px;
+    padding-bottom: 20px;
 }
 #offer h2 {
     font-family: 'Libre Baskerville', serif;
@@ -159,6 +159,7 @@ nav ul li a {
     position: absolute;
     top: -170px;
     left: 500px;
+    
 }
 #offer p:last-child::after{
     content: '';
@@ -183,7 +184,59 @@ nav ul li a {
     left: 500px;
 }
 /*about*/
+#about {
+    background: url(../Images/about-bg.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 650px;
+    z-index: -2;
+    position: relative;
+}
+#about h2{
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 38px;
+    text-align: left;
+    letter-spacing: 2px;
+    position: relative;
+    letter-spacing: inherit;
+    margin-left: 200px;
+    padding-top: 50px;
+}
+#about h2::before {
+    content: '';
+    display: block;
+    width: 250px;
+    border: 10px solid #fff;
+    left: -500px;
+    right: 0;
+    top: 65px;
+    margin: auto;
+    z-index: -1;
+    position: absolute;   
+}
 
+.first{
+    margin-left: 200px;
+    width: 560px;
+    font-family: 'Karla', sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    display: flex;
+    align-content: flex-start;
+    justify-content: flex-start;
+}
+.second{
+    margin-left: 200px;
+    width: 543px;
+    font-family: 'Karla', sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    display: flex;
+    align-content: flex-start;
+    justify-content: flex-start;
+}
 
 
 
