@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Karla:400,700|Libre+Baskerville:400i');
 
+body {
+    margin: 0;
+}
 /* header*/
 header {
     height: 100%;
@@ -20,7 +23,7 @@ h1 {
     font-weight: 400;
     font-size: 58px;
     text-align: center;
-    padding-top: 160px;
+    padding-top: 50px;
     letter-spacing: 5px;
     position: relative;
 }
@@ -29,10 +32,10 @@ h1::before {
     display: block;
     width: 500px;
     border: 20px solid #fff;
-    left:0;
+    left: 0;
     right: 0;
     margin: auto;
-    top: 158px;
+    top: 50px;
     z-index: -1;
     position: absolute;
 }
@@ -47,8 +50,7 @@ nav {
     padding-top: 10px;
     display: flex;
     align-items: flex-start;
-    justify-content: center;
-    
+    justify-content: center;   
 }
 nav ul {
     margin-left: 20px;
@@ -75,13 +77,50 @@ nav ul li a {
 }
 
 /* section offer*/
+#offer {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin-left: 250px;
+    align-items: stretch;
+    justify-content: center;
+}
+#offer h2 {
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 38px;
+    text-align: left;
+    letter-spacing: 2px;
+    position: relative;
+}
+h2::before {
+    content: '';
+    display: block;
+    width: 200px;
+    border: 10px solid #f3f3f6;
+    left: -350px;
+    right: 0;
+    top: 15px;
+    margin: auto;
+    z-index: -1;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
 
 
 /* footer */
 footer {
     display: flex;
     flex-direction: row;
-    justify-content:center;
+    justify-content: center;
     background-image: url(../Images/footer.jpg);
     background-repeat: no-repeat;
     background-size: cover;
