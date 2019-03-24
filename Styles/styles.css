@@ -81,7 +81,7 @@ nav ul li a {
     display: flex;
     flex-direction: column;
     max-width: 800px;
-    margin-left: 250px;
+    margin-left: 200px;
     justify-content: center;
     flex-wrap: nowrap;
     padding-bottom: 100px;
@@ -94,6 +94,7 @@ nav ul li a {
     text-align: left;
     letter-spacing: 2px;
     position: relative;
+    letter-spacing: inherit;
 }
 #offer h2::before {
     content: '';
@@ -122,12 +123,13 @@ nav ul li a {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
-    width: 210px;  
+    width: 200px;  
     padding: 0;
 }
 #offer ul h3{
     font-family: 'Karla', sans-serif;
     text-transform: uppercase;
+    letter-spacing: 8px;
 }
 #offer ul li{
     font-size: 16px;
@@ -157,6 +159,19 @@ nav ul li a {
     position: absolute;
     top: -170px;
     left: 500px;
+}
+#offer p:last-child::after{
+    content: '';
+    border: 10px solid #f3f3f3;
+    z-index: -2;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    width: 100px;
+    height: 100px;
+    top:-220px;
+    left: 455px;
+    border-radius: 50%;
 }
 
 
