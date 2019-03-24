@@ -188,7 +188,7 @@ nav ul li a {
     background: url(../Images/about-bg.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 650px;
+    height: 800px;
     z-index: -2;
     position: relative;
 }
@@ -216,7 +216,6 @@ nav ul li a {
     z-index: -1;
     position: absolute;   
 }
-
 .first{
     margin-left: 200px;
     width: 560px;
@@ -238,8 +237,102 @@ nav ul li a {
     justify-content: flex-start;
 }
 
-
-
+/*contact*/
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative; 
+    height: 550px;
+    padding-bottom: 50px;
+}
+#contact h2 {
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 38px;
+    text-align: left;
+    letter-spacing: 2px;
+    position: relative;
+    margin-left: 200px;
+    margin-top: 0;
+}
+#contact h2::before {
+    content: '';
+    display: block;
+    width: 200px;
+    border: 10px solid #f6f6f6;
+    left: -450px;
+    right: 0;
+    top: 15px;
+    margin: auto;
+    z-index: -1;
+    position: absolute;   
+}
+form {
+    align-self: flex-start;
+    margin-left: 200px;
+    height: 300px;
+    margin-top: 40px;
+}
+input {
+    display: block;
+    padding: 10px;
+    margin: 10px 10px 10px 0;
+    border: none;
+    border-bottom: 2px solid #f6f6f6;
+    width: 300px;
+    font-family: 'Karla', sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: lowercase;
+}
+button {
+    padding: 10px;
+    margin: 80px 10px 10px 0;
+    width: 320px;
+    height: 50px;
+    border: none;
+}
+#contact img{
+    align-self: flex-end;
+    position: absolute;
+    top: 100px;
+    left: 700px;
+}
+#contact p::before{
+    content: '';
+    border: 10px solid #f6f6f6;
+    z-index: -1;
+    position: absolute;
+    display: inline-flex;
+    justify-content: flex-start;
+    width: 100px;
+    height: 100px;
+    top: -55px;
+    left: -60px;
+    border-radius: 50%;
+}
+#contact p{
+    position: absolute;
+    display: inline-flex;
+    justify-content: flex-start;
+    text-transform: uppercase;
+    font-size: 12px;
+    top: 410px;
+    left: 700px;
+    font-family: 'Karla', sans-serif;
+}
+address {
+    align-self: flex-end;
+    justify-content: flex-end;
+    position: absolute;
+    top: 500px;
+    left: 700px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 14px;
+    font-style: normal;
+}
 
 /* footer */
 footer {
@@ -250,14 +343,13 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
-    background-size: 100%;
-    height: 25vh;
-    
+    background-size: 120% ;
+    height: 20vh;   
 }
 
-footer img {
+footer img{
     height: 40px;
     width: 40px;
-    margin: 10px 32px 10px 32px;
+    margin: 20px 32px 0 32px;
     padding-top: 20px;
 }
