@@ -82,8 +82,8 @@ nav ul li a {
     flex-direction: column;
     max-width: 800px;
     margin-left: 250px;
-    align-items: stretch;
     justify-content: center;
+    flex-wrap: nowrap;
 }
 #offer h2 {
     font-family: 'Libre Baskerville', serif;
@@ -94,19 +94,44 @@ nav ul li a {
     letter-spacing: 2px;
     position: relative;
 }
-h2::before {
+#offer h2::before {
     content: '';
     display: block;
-    width: 200px;
+    width: 250px;
     border: 10px solid #f3f3f6;
-    left: -350px;
+    left: -270px;
     right: 0;
     top: 15px;
     margin: auto;
     z-index: -1;
     position: absolute;
 }
-
+#offer p{
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    max-width: 750px;
+}
+#offer ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+#offer ul h3{
+    font-family: 'Karla', sans-serif;
+    text-transform: uppercase;
+}
+#offer ul li {
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Karla', sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    list-style: none;
+    line-height: 35px;
+    text-transform: uppercase;
+}
 
 
 
